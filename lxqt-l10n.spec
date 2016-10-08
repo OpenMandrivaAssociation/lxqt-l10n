@@ -30,3 +30,4 @@ terms of the Qt TS files of all components maintained by the LXQt project.
 %ninja_install -C build
 
 %files
+%{_datadir}/*/translations/*/*.qm
