@@ -19,7 +19,7 @@ terms of the Qt TS files of all components maintained by the LXQt project.
 %prep
 %setup -q
 
-%cmake_qt5 -G Ninja
+%cmake -G Ninja
 
 %build
 %ninja -C build
