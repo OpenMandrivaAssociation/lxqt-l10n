@@ -8,6 +8,7 @@ URL: http://lxqt.org/
 License: GPL
 Group: Graphical desktop/Other
 BuildRequires: cmake
+BuildRequires: qmake5
 BuildRequires: ninja
 BuildRequires: cmake(lxqt)
 BuildArch: noarch
@@ -19,7 +20,7 @@ terms of the Qt TS files of all components maintained by the LXQt project.
 %prep
 %setup -q
 
-%cmake -G Ninja
+%cmake_qt5 -G Ninja
 
 %build
 %ninja -C build
