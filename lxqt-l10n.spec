@@ -11,6 +11,7 @@ BuildRequires: qmake5
 BuildRequires: ninja
 BuildRequires: cmake(lxqt)
 BuildRequires: cmake(Qt5LinguistTools)
+BuildRequires: cmake(lxqt-build-tools)
 BuildArch: noarch
 
 %description
