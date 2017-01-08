@@ -1,6 +1,6 @@
 Name: lxqt-l10n
-Version: 0.11.1
-Release: 2
+Version: 0.11.2
+Release: 1
 Source0: https://github.com/lxde/%{name}/archive/%{name}-%{version}.tar.xz
 Summary: Translations of LXQt
 URL: http://lxqt.org/
@@ -14,10 +14,10 @@ BuildRequires: cmake(Qt5LinguistTools)
 BuildRequires: cmake(lxqt-build-tools)
 BuildArch: noarch
 
-Conflicts:	lxqt-about < 0.11.0
-Conflicts:	lxqt-config < 0.11.0
-Conflicts:	lxqt-panel < 0.11.0
-Conflicts:	lxqt-session < 0.11.0
+Conflicts: lxqt-about < 0.11.0
+Conflicts: lxqt-config < 0.11.0
+Conflicts: lxqt-panel < 0.11.0
+Conflicts: lxqt-session < 0.11.0
 
 %description
 This package is providing translations ("localization") in
