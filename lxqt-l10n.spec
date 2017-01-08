@@ -18,6 +18,8 @@ Conflicts:	lxqt-about < 0.11.0
 Conflicts:	lxqt-config < 0.11.0
 Conflicts:	lxqt-panel < 0.11.0
 Conflicts:	lxqt-session < 0.11.0
+Conflicts:  lxqt-admin < 0.11.0
+Conflicts:  task-lxqt < 0.11.0
 
 %description
 This package is providing translations ("localization") in
