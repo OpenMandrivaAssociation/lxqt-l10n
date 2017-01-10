@@ -18,8 +18,17 @@ Conflicts:	lxqt-about < 0.11.0
 Conflicts:	lxqt-config < 0.11.0
 Conflicts:	lxqt-panel < 0.11.0
 Conflicts:	lxqt-session < 0.11.0
-Conflicts:  lxqt-admin < 0.11.0
-Conflicts:  task-lxqt < 0.11.0
+Conflicts:	lxqt-admin < 0.11.0
+Conflicts:	pcmanfm-qt < 0.11.0
+Conflicts:	lxqt-policykit < 0.11.0
+Conflicts:	lxqt-openssh-askpass < 0.11.0
+Conflicts:	lxqt-runner < 0.11.0
+Conflicts:	lxqt-sudo < 0.11.0
+Conflicts:	lxqt-powermanagement < 0.11.0
+Conflicts:      libfm-qt < 0.11.2-4
+Conflicts:	lxqt-globalkeys < 0.11.0
+Conflicts:	lxqt-notificationd < 0.11.0
+Conflicts:	obconf-qt < 0.11.0
 
 %description
 This package is providing translations ("localization") in
