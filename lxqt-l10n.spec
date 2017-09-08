@@ -33,8 +33,8 @@ terms of the Qt TS files of all components maintained by the LXQt project.
 
 %install
 %ninja_install -C build
+# This is also packaged in lxqt-globalkeys
+rm -f %{buildroot}%{_datadir}/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_tr.qm
+%find_lang %{name} --all-name --with-qt
 
-%files
-%{_datadir}/*/translations/*.qm
-%{_datadir}/*/translations/*/*.qm
-%{_datadir}/*/translations/*/*/*.qm
+%files -f %{name}.lang
