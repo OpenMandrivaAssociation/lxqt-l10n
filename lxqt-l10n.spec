@@ -1,6 +1,6 @@
 Name: lxqt-l10n
 Version: 0.12.0
-Release: 4
+Release: 5
 Source0: https://github.com/lxde/%{name}/archive/%{version}.tar.gz
 Summary: Translations of LXQt
 URL: http://lxqt.org/
@@ -45,8 +45,9 @@ rm -f %{buildroot}%{_datadir}/lxqt/translations/lxqt-config-powermanagement/*.qm
 rm -f %{buildroot}%{_datadir}/lxqt/translations/lxqt-policykit-agent/*.qm
 rm -f %{buildroot}%{_datadir}/lxqt/translations/lxqt-config-globalkeyshortcuts/*.qm
 rm -f %{buildroot}%{_datadir}/lximage-qt/translations/*.qm
+rm -f %{buildroot}%{_datadir}/libfm-qt/translations/*.qm
 #Leave for future changes
-#rm -f %{buildroot}%{_datadir}
+#rm -f %{buildroot}%{_datadir}/
 #rm -f %{buildroot}%{_datadir}/lxqt/translations/
 %find_lang %{name} --all-name --with-qt
 
