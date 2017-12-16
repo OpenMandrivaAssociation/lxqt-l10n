@@ -1,6 +1,6 @@
 Name: lxqt-l10n
 Version: 0.12.0
-Release: 3
+Release: 4
 Source0: https://github.com/lxde/%{name}/archive/%{version}.tar.gz
 Summary: Translations of LXQt
 URL: http://lxqt.org/
@@ -35,8 +35,19 @@ terms of the Qt TS files of all components maintained by the LXQt project.
 
 %install
 %ninja_install -C build
-# This is also packaged in lxqt-globalkeys
-rm -f %{buildroot}%{_datadir}/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_tr.qm
+# These are also packaged in their respective lxqt packages
+rm -f %{buildroot}%{_datadir}/lxqt/translations/lxqt-sudo/*.qm
+rm -f %{buildroot}%{_datadir}/lxqt/translations/lxqt-powermanagement/*.qm
+rm -f %{buildroot}%{_datadir}/lxqt/translations/lxqt-admin-time/*.qm
+rm -f %{buildroot}%{_datadir}/lxqt/translations/lxqt-admin-user/*qm
+rm -f %{buildroot}%{_datadir}/lxqt/translations/lxqt-config-notificationd/*.qm
+rm -f %{buildroot}%{_datadir}/lxqt/translations/lxqt-config-powermanagement/*.qm
+rm -f %{buildroot}%{_datadir}/lxqt/translations/lxqt-policykit-agent/*.qm
+rm -f %{buildroot}%{_datadir}/lxqt/translations/lxqt-config-globalkeyshortcuts/*.qm
+rm -f %{buildroot}%{_datadir}/lximage-qt/translations/*.qm
+#Leave for future changes
+#rm -f %{buildroot}%{_datadir}
+#rm -f %{buildroot}%{_datadir}/lxqt/translations/
 %find_lang %{name} --all-name --with-qt
 
 %files -f %{name}.lang
