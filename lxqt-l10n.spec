@@ -1,6 +1,6 @@
 Name: lxqt-l10n
 Version: 0.12.0
-Release: 5
+Release: 6
 Source0: https://github.com/lxde/%{name}/archive/%{version}.tar.gz
 Summary: Translations of LXQt
 URL: http://lxqt.org/
@@ -19,7 +19,6 @@ Conflicts: lxqt-config < 0.11.0
 Conflicts: lxqt-panel < 0.11.0
 Conflicts: lxqt-session < 0.11.0
 Conflicts: lxqt-common < 0.12.0
-%rename lxqt-common
 
 %description
 This package is providing translations ("localization") in
