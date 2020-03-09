@@ -1,6 +1,6 @@
 Name: lxqt-l10n
 Version: 0.13.0
-Release: 2
+Release: 3
 Source0: https://github.com/lxqt/%{name}/archive/%{version}.tar.gz
 Summary: Translations of LXQt
 URL: http://lxqt.org/
@@ -25,7 +25,7 @@ This package is providing translations ("localization") in
 terms of the Qt TS files of all components maintained by the LXQt project.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %cmake_qt5 -G Ninja
 
