@@ -1,6 +1,6 @@
 Name: lxqt-l10n
 Version: 0.13.0
-Release: 3
+Release: 4
 Source0: https://github.com/lxqt/%{name}/archive/%{version}.tar.gz
 Summary: Translations of LXQt
 URL: http://lxqt.org/
